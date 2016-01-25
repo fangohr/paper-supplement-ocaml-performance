@@ -43,11 +43,11 @@ The output of running make (on an Intel Core i5-6600 processor running at
     0.36user 0.02system 0:00.39elapsed 100%CPU (0avgtext+0avgdata 213880maxresident)k
     0inputs+0outputs (0major+745minor)pagefaults 0swaps
 
-It can be seen that regular arrays (1) are very slow in the creation phase
-(~1 s) while both bigarrays (2) and C arrays (3) are very fast. On the other hand
-regular arrays (1) are faster to initialise and much faster to access than
-bigarrays (2). The overall outcome is that the C example runs in about 0.4 s
-while the OCaml examples run in about 1.8 s (A) and 1.3 s (B). Crucially,
-access time for bigarrays is more than an order of magnitude greater than for
-C, while using regular OCaml arrays introduces setup time delays that are
-simply not present in the other programs (2 and 3).
+It can be seen that using regular OCaml arrays (1) is very slow in the creation
+phase (~1 s) while both bigarrays (2) and C arrays (3) are very fast. On the
+other hand regular OCaml arrays (1) are faster to initialise and much faster to
+access than bigarrays (2). The overall outcome is that the C example runs in
+about 0.4 s while the OCaml examples run in about 1.8 s (1) and 1.3 s
+(2). Crucially, access time for bigarrays is more than an order of magnitude
+greater than for C, while using regular OCaml arrays introduces setup time
+delays that are simply not present in the other programs (2 and 3).
