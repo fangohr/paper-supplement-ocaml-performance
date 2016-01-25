@@ -1,10 +1,11 @@
 # Memory-unintensive summation
 
 In this example we carry out the same computation that was carried out in the
-array-sum example, except that the summation is done without storing the
+`array-sum` example, except that the summation is done without storing the
 values in RAM. Also, the initial values are generated using a provided
-function, rather than just calling the sin function. These changes make this
-example less affected by memory bandwith problems than the array-sum example.
+function, rather than just calling the `sin` function. These changes make this
+example less affected by memory bandwidth problems than the `array-sum`
+example.
 
 This directory contains 2 programs that do this in Ocaml and C++:
 
