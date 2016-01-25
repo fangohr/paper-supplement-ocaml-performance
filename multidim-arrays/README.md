@@ -15,6 +15,7 @@ language/representation of multi-dimensional arrays:
 
 3. `carray_test.cc`: C++ code where we use a regular C array.
 
+The three programs are compiled with OCaml 4.01.0 and gcc 5.2.1.
 The output of running make (on an Intel Core i5-6600 processor running at
 3.3 GHz) is the following:
 
