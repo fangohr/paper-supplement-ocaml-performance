@@ -3,7 +3,9 @@
 CFLAGS := -std=c++11 -Wall -O3
 
 all: array_test carray_test carray_test.s
+	@echo
 	time ./array_test
+	@echo
 	time ./carray_test
 
 asm: array_test.s carray_test.s

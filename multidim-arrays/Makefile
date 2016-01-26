@@ -4,8 +4,11 @@ CFLAGS := -std=c++11 -Wall -O3
 RUN_PREFIX := time
 
 all: array_test bigarray_test carray_test
+	@echo
 	$(RUN_PREFIX) ./array_test
+	@echo
 	$(RUN_PREFIX) ./bigarray_test
+	@echo
 	$(RUN_PREFIX) ./carray_test
 
 asm: array_test.s carray_test.s

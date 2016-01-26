@@ -17,6 +17,7 @@ The output of running make (on an Intel Core i5-6600 processor running at
 
     ocamlfind ocamlopt -package unix -S -linkpkg array_test.ml -o array_test
     g++ -std=c++11 -Wall -O3 carray_test.cc -o carray_test
+
     time ./array_test
     Diff is 1.14688
     Fill time 2.96966 s
@@ -24,6 +25,7 @@ The output of running make (on an Intel Core i5-6600 processor running at
     Diff time 0.0617249 s
     3.28user 0.12system 0:03.42elapsed 99%CPU (0avgtext+0avgdata 1194340maxresident)k
     0inputs+0outputs (0major+6211minor)pagefaults 0swaps
+
     time ./carray_test
     Diff is 1.14688
     Fill time 2.18151s

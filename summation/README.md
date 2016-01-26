@@ -19,11 +19,13 @@ The output of running make (on an Intel Core i5-6600 processor running at
 
     ocamlfind ocamlopt -package unix -S -linkpkg array_test.ml -o array_test
     g++ -std=c++11 -Wall -O3 carray_test.cc -o carray_test
+
     time ./array_test
     Diff is 1.27826
     Sum time 2.83848 s
     2.83user 0.00system 0:02.83elapsed 99%CPU (0avgtext+0avgdata 4568maxresident)k
     0inputs+0outputs (0major+646minor)pagefaults 0swaps
+
     time ./carray_test
     Diff is 1.27826
     Sum time 0.678228s
