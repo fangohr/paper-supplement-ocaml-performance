@@ -22,6 +22,7 @@ The output of running make (on an Intel Core i5-6600 processor running at
     ocamlfind ocamlopt -package unix -S -linkpkg array_test.ml -o array_test
     ocamlfind ocamlopt -package unix,bigarray -linkpkg bigarray_test.ml -o bigarray_test
     g++ -std=c++11 -Wall -O3 carray_test.cc -o carray_test
+
     time ./array_test
     Sum is 0.595922
     Create time 1.03602 s
@@ -29,6 +30,7 @@ The output of running make (on an Intel Core i5-6600 processor running at
        Sum time 0.079427 s
     1.72user 0.10system 0:01.82elapsed 99%CPU (0avgtext+0avgdata 429080maxresident)k
     0inputs+0outputs (0major+105119minor)pagefaults 0swaps
+
     time ./bigarray_test
     Sum is 0.595922
     Create time 3.09944e-06 s
@@ -36,6 +38,7 @@ The output of running make (on an Intel Core i5-6600 processor running at
        Sum time 0.392411 s
     1.24user 0.02system 0:01.26elapsed 99%CPU (0avgtext+0avgdata 215564maxresident)k
     0inputs+0outputs (0major+1258minor)pagefaults 0swaps
+
     time ./carray_test
     Sum is 0.595922
     Create time 4.05312e-06 s
