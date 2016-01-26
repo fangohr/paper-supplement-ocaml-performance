@@ -96,4 +96,4 @@ mainly due to the nature of the particular computation which is very memory
 intensive (tight loop with two loads, one addition, one store).
 
 A less memory intensive version of this code is provided in the directory
-summation.
+[`../summation`](../summation).
