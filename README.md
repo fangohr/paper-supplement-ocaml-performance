@@ -1,7 +1,8 @@
-# paper-supplement-ocaml-performance
-Code relating to Nmag review manuscript.
+# Small OCaml performance study
 
-This repository contains programs that help investigating the quality of
+Supplement for manuscript "Nmag micromagnetic simulation tool -- software engineering lessons learned" by Hans Fangohr and Matteo Franchin (2016).
+
+This repository contains programs that help investigating the performance of
 code emitted by the OCaml compiler (ocamlopt) for some of simple cases
 which are particularly relevant to numerical code.
 
