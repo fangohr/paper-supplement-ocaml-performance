@@ -1,6 +1,6 @@
 # Small OCaml performance study
 
-Supplement for manuscript "Nmag micromagnetic simulation tool -- software engineering lessons learned" by Hans Fangohr and Matteo Franchin (2016).
+Supplement for manuscript "Nmag micromagnetic simulation tool -- software engineering lessons learned" by Hans Fangohr, Maximilian Albert and Matteo Franchin (2016).
 
 This repository contains some test programs that help investigating the
 performance of code emitted by the OCaml compiler (`ocamlopt`) for some of
@@ -20,4 +20,4 @@ the C++ version of the same test. Here is a list of the available directories:
 See the README files in the individual subdirectories for more details on
 the investigations performed and results obtained.
 
-Matteo Franchin, Hans Fangohr, 2016
+Matteo Franchin, Maximilian Albert, Hans Fangohr, 2016
