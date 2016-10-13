@@ -1,7 +1,7 @@
 # Small OCaml performance study
 
 [![DOI](https://zenodo.org/badge/20165/fangohr/paper-supplement-ocaml-performance.svg)](https://zenodo.org/badge/latestdoi/20165/fangohr/paper-supplement-ocaml-performance) <a href="http://arxiv.org/abs/1601.07392"><img src="https://img.shields.io/badge/preprint-arxiv:1601.07392-lightgrey.svg" alt="arxiv"></a>
-<a href="http://dl.acm.org/citation.cfm?doid=2897676.2897677"><img src="https://img.shields.io/badge/journal-SE4Science-blue.svg" alt="URL"></a
+<a href="http://dl.acm.org/citation.cfm?doid=2897676.2897677"><img src="https://img.shields.io/badge/journal-SE4Science-blue.svg" alt="URL">
 
 <br>
 
