@@ -1,9 +1,17 @@
 # Small OCaml performance study
 
-[![DOI](https://zenodo.org/badge/20165/fangohr/paper-supplement-ocaml-performance.svg)](https://zenodo.org/badge/latestdoi/20165/fangohr/paper-supplement-ocaml-performance) <a href="http://arxiv.org/abs/1601.07392"><img src="https://img.shields.io/badge/preprint-arxiv:1601.07392-lightgrey.svg" alt="arxiv"></a><br>
+[![DOI](https://zenodo.org/badge/20165/fangohr/paper-supplement-ocaml-performance.svg)](https://zenodo.org/badge/latestdoi/20165/fangohr/paper-supplement-ocaml-performance) <a href="http://arxiv.org/abs/1601.07392"><img src="https://img.shields.io/badge/preprint-arxiv:1601.07392-lightgrey.svg" alt="arxiv"></a>
+<a href="http://dl.acm.org/citation.cfm?doid=2897676.2897677"><img src="https://img.shields.io/badge/journal-SE4Science-blue.svg" alt="URL"></a
 
-Supplement for manuscript
-["Nmag micromagnetic simulation tool - software engineering lessons learned"](http://arxiv.org/abs/1601.07392) by Hans Fangohr, Maximilian Albert and Matteo Franchin (2016).
+<br>
+
+Supplement for publication
+["Nmag micromagnetic simulation tool - software engineering lessons learned"](http://arxiv.org/abs/1601.07392) by Hans Fangohr, Maximilian Albert and Matteo Franchin. In proceedings of the International Workshop on Software Engineering for Science, at ICSE2016 SE4Science '16, 1-7 (2016)
+
+Journal URL: http://dl.acm.org/citation.cfm?doid=2897676.2897677
+
+DOI: doi = 10.1145/2897676.2897677
+
 
 This repository contains some test programs that help investigating the
 performance of code emitted by the OCaml compiler (`ocamlopt`) for some of
