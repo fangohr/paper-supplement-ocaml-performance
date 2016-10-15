@@ -5,7 +5,7 @@
 
 <br>
 
-Contributions from received **after** the publication of
+Contributions received **after** the publication of
 ["Nmag micromagnetic simulation tool - software engineering lessons learned"](http://arxiv.org/abs/1601.07392) by Hans Fangohr, Maximilian Albert and Matteo Franchin. In proceedings of the International Workshop on Software Engineering for Science, at ICSE2016 SE4Science '16, 1-7 (2016)
 
 Journal URL: http://dl.acm.org/citation.cfm?doid=2897676.2897677
