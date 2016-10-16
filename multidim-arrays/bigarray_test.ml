@@ -1,6 +1,6 @@
 (*
  * Create an array of rank-3 tensors, populate them and compute their norm.
- * In this example, tensors are represented as arrays of arrays of arrays.
+ * In this example, the tensors are all stored inside a single bigarray.
  *)
 
 let pi = 4.0 *. atan 1.0;;
