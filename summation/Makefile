@@ -21,3 +21,4 @@ carray_test.s: carray_test.cc
 
 clean:
 	rm -f *.cmi *.cmo *.cmx *.o array_test bigarray_test carray_test
+	rm -f array_test.s
